@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root{
+  font-size: 62.5%;
+  --text-title:#3F3D56;
+  --text-destaque:#ee24ff;
+  --text-paragraf:#828282;
+  --bg-color:#eceff2;
+}
+
+body{
+  font-size: 1.6rem;
+  height: 100vh;
+}
+#app{
+  max-width: 62.6rem;
+  padding-top: 6.4rem;
+  margin: auto;
+  text-align: center;
+}
+#app img{
+  margin-bottom: 3.2rem;
+}
+#app h1{
+  font-size: 3.2rem;
+  font-family: "Dosis", sans-serif;
+  color: var(--text-title);
+  margin-bottom: 1.6rem;
+}
+h1 span{
+  color: var(--text-destaque);
+}
+p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: var(--text-paragraf);
+}
+p span{
+  color: var(--text-title);
+  font-weight: bold;
+}
+#app p:first-of-type{
+  margin-bottom: 2rem;
+}
+p + p{
+  margin-bottom: 2rem;
+  text-align: center;
+
+}
+nav{
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 4.2rem;
+
+}
+nav a{
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: var(--text-title);
+}
+footer{
+    text-align: center;
+}
+#wave{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+
